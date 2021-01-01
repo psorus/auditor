@@ -23,3 +23,8 @@ One explanaition why my code reaches so high values is plotted into the followin
 
 
 ![](moneyovertime.png)
+
+
+I think I keep it running, and update this if I dont forget;)
+
+
