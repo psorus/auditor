@@ -1,6 +1,7 @@
 import csv
 import datetime
 import matplotlib.pyplot as plt
+import numpy as np
 
 timestruct="%d:%m:%y %H:%M:%S"
 
@@ -33,6 +34,19 @@ plt.figure(figsize=(12,6))
 
 plt.plot(times,values,label="My code")
 plt.plot(tdax,DAX,"o",label="DAX")
+
+alldays=[datetime.datetime(2020,12,i) for i in range(15,32)]
+plt.plot(alldays,[1 for x in alldays],"o",color="black",alpha=0.5,label="days")
+
+# plt.axhline(alldays[0])
+
+# k=[plt.axhline(zw) for zw in alldays]
+plt.plot(np.array(alldays),[1 for x in alldays],"o",color="black",alpha=0.5,label="days")
+
+# for t in :
+  # print(t)
+  # plt.axhline(t,alpha="0.5",color="black")
+
 plt.legend()
 plt.xlabel("time")
 plt.ylabel("money")
