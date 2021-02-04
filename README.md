@@ -27,4 +27,8 @@ One explanaition why my code reaches so high values is plotted into the followin
 
 I think I keep it running, and update this if I dont forget;)
 
+Quick Update 4.02.2021:
+Currently at 1.0947, so not as good as one migth have hoped for, but still consistent returns. That being said, we are still corona affected, and it migth be interresting to see how this plays out post corona
+
+
 
